@@ -5,6 +5,8 @@ This is Osare-Poem-Generator keras implementation.
 [Description]
 https://qiita.com/nagayosi/items/9cd8fb0445882ce09c94
 
+[Reference] LSTM sample code of https://github.com/keras-team/keras
+
 I recommend that you use with pyhton3.
 
 ## how to use
