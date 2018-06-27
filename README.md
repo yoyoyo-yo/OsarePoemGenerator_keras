@@ -3,19 +3,19 @@
 This is Osare-Poem-Generator keras implementation.
 
 [Description]
-https://qiita.com/nagayosi/items/9cd8fb0445882ce09c94
+https://qiita.com/nagayosi/items/79916363a9a5a36137bc
 
-[Reference] LSTM sample code of https://github.com/keras-team/keras
+[Reference] LSTM sample code of https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py 
 
 
 # Requirements
+
+```
 Python-3.6.4
-
 Keras-2.2.0
-
 TensorFlow-1.8.0
-
 Numpy-1.14.0
+```
 
 # Training
 Please prepare your own dataset, and you change "Train_data_path" to your dataset path.
