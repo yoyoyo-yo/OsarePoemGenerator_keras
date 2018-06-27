@@ -1,16 +1,5 @@
 #!/usr/bin/env python3
 
-#-------------------------
-#  @nagayosi 2018.3.25
-#
-# how to use
-#  for train
-#   python3 main.py --train --iter 1000 --gpu
-#  for test
-#   python3 main.py --test --gpu
-#
-#-------------------------
-
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
