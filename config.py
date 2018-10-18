@@ -2,8 +2,11 @@
 
 import os
 
+Voca = 'あいうおえかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉゃゅょっ、。ー!? @'
 
-Vocabrary_path = 'hiragana.txt'
+Vocabrary = [x for x in Voca]
+Vocabrary_num = len(Vocabrary)
+
 Train_data_path = 'bleach_poem_hiragana.txt'
     
 
@@ -25,6 +28,3 @@ Save_directory = 'output'
 Save_model = 'osarePoem.h5'
 Save_path = os.path.join(Save_directory, Save_model)
 
-
-with open(Vocabrary_path, 'r') as f:
-    Vocabrary_num = len(f.readlines()) + len(Prefix)

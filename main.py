@@ -35,16 +35,6 @@ def sample(preds, temperature=1.0):
     return np.argmax(probas)
 
 
-
-def get_vocabrary():
-    with open(cf.Vocabrary_path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
-        voca = [x.replace(os.linesep, '') for x in lines]
-
-    voca.extend(cf.Prefix)
-    return voca
-
-
 def get_prefix_suffix(len=1):
     text = ''
     for _ in range(len):
@@ -107,7 +97,7 @@ def train():
 
     print('Training Start!')
 
-    vocabrary = get_vocabrary()
+    vocabrary = cf.Vocabrary
     x_data, y_data = parse_data()
     X = voca2onehot(vocabrary, x_data)
     Y = voca2onehot(vocabrary, y_data)
@@ -129,7 +119,7 @@ def test():
     sentence = get_prefix_suffix(len=cf.N_gram)
     generated = sentence
 
-    voca = get_vocabrary()
+    voca = cf.Vocabrary
     
     model = network()
     model.load_weights(cf.Save_path)
