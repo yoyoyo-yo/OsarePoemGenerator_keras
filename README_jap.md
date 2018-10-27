@@ -1,8 +1,6 @@
 # OsarePoemGenerator_keras
 
-This is Osare-Poem-Generator keras implementation.
-
-[Japanese](https://github.com/yoyoyo-yo/OsarePoemGenerator_keras/README_jap.md)
+Osare-Poem-Generator のKeras実装.
 
 [Description]
 https://qiita.com/nagayosi/items/79916363a9a5a36137bc
@@ -32,9 +30,10 @@ Numpy-1.14.0
 ```
 
 # Training
-Please prepare your own dataset, and you change "Train_data_path" to your dataset path.
 
-Please type below command.
+自分で用意したデータセットで学習するには、config.pyの"Train_data_path"を変える。
+
+そして下記コマンドを打つで学習が始まる。
 
 ```
 python3 main.py --train
@@ -47,7 +46,10 @@ python3 main.py --test
 ```
 
 # Model
-You can change network model in "model.py"
+
+"model.py"でネットワークを変更できる。
 
 # N-gram
-You can change N-gram number and other parameters in "config.py"
+
+"config.py"のN-gramパラメータを変更できる。
+
