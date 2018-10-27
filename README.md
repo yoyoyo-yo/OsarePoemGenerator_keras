@@ -2,7 +2,7 @@
 
 This is Osare-Poem-Generator keras implementation.
 
-[Japanese](https://github.com/yoyoyo-yo/OsarePoemGenerator_keras/README_jap.md)
+[Japanese Description](https://github.com/yoyoyo-yo/OsarePoemGenerator_keras/blob/master/README_jap.md)
 
 [Description]
 https://qiita.com/nagayosi/items/79916363a9a5a36137bc
