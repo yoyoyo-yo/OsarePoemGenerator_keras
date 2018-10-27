@@ -2,6 +2,8 @@
 
 Osare-Poem-Generator のKeras実装.
 
+[English Description](https://github.com/yoyoyo-yo/OsarePoemGenerator_keras/blob/master/README.md)
+
 [Description]
 https://qiita.com/nagayosi/items/79916363a9a5a36137bc
 
